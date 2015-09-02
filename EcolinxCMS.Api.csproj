@@ -137,6 +137,18 @@
     <Reference Include="MySql.Web">
       <HintPath>packages\References\mysql.web.dll</HintPath>
     </Reference>
+    <Reference Include="EcolinxCMS.Business">
+      <HintPath>packages\References\EcolinxCMS.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="EcolinxCMS.Domain">
+      <HintPath>packages\References\EcolinxCMS.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="EcolinxCMS.Infraestructure">
+      <HintPath>packages\References\EcolinxCMS.Infraestructure.dll</HintPath>
+    </Reference>
+    <Reference Include="EcolinxCMS.Utils">
+      <HintPath>packages\References\EcolinxCMS.Utils.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AutenticacaoController.cs" />
@@ -2217,21 +2229,13 @@
     <None Include="packages\toastr.TypeScript.DefinitelyTyped.0.1.4\Content\Scripts\typings\toastr\toastr.d.ts" />
     <None Include="packages\toastr.TypeScript.DefinitelyTyped.0.1.5\toastr.TypeScript.DefinitelyTyped.0.1.5.nupkg" />
     <None Include="packages\toastr.TypeScript.DefinitelyTyped.0.1.5\Content\Scripts\typings\toastr\toastr.d.ts" />
+    <None Include="packages\References\EcolinxCMS.Business.dll" />
+    <None Include="packages\References\EcolinxCMS.Domain.dll" />
+    <None Include="packages\References\EcolinxCMS.Infraestructure.dll" />
+    <None Include="packages\References\EcolinxCMS.Utils.dll" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\EcolinxCMS.Business\EcolinxCMS.Business.csproj">
-      <Project>{74C07F68-5A36-4D0C-8D6B-E0FC14D868F3}</Project>
-      <Name>EcolinxCMS.Business</Name>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
-    </ProjectReference>
-    <ProjectReference Include="..\EcolinxCMS.Domain\EcolinxCMS.Domain.csproj">
-      <Project>{C2BDB983-DEB6-453C-BAB4-054A6B1B7D9C}</Project>
-      <Name>EcolinxCMS.Domain</Name>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
