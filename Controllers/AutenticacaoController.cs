@@ -20,6 +20,7 @@ namespace EcolinxCMS.Api.Controllers
         {
             var response = new HttpResponseMessage();
 
+
             try
             {
                 var lista = _service.Autenticacao.Authenticate(autenticacao.Email, autenticacao.Senha);
